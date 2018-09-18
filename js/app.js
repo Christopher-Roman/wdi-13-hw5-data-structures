@@ -163,7 +163,16 @@ for(let i = 0; i < bondFilms.length; i++){
 	}
 }
 console.log(oddBonds);
+
 // 7.
+let bondGross = 0;
 
-
+for(let i = 0; i < bondFilms.length; i++){
+	let almostInt = bondFilms[i].gross.replace("$", "")
+	let nearlyThere = almostInt.replace(",", "")
+	let closer = nearlyThere.replace(",", "")
+	let usableInt = closer.replace(",", "")
+	bondGross += parseInt(usableInt)
+}
+console.log(bondGross);
 
