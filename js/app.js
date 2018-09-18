@@ -33,4 +33,27 @@
 		// {name: 'Charlotte', location: 'Paris', favShows: ['anime show', 'some other anime show', 'hey another one']}, 
 		// etc...]
 
+//	Take it Easy
+
+// 1.
+const rainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+// 2.
+console.log(rainbow[4]);
+// 3.
+const chris = {
+	favFood: 'Hot Wings',
+	hobby: 'Writing',
+	currentTown: 'Chicago',
+	favDataType: 'Objects'
+}
+// 4.
+console.log(chris.hobby);
+
+
+
+
+
+
+
+
 
